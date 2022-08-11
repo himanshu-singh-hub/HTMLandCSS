@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+
+	<title>template</title>
+</head>
+<style type="text/css">
+	.box1{
+		position: absolute;
+		width: 99%;
+		height: 50%;	
+	}
+	ul{
+		position: relative;
+		list-style-type: none;
+		margin: 10px;
+		padding: 5px;
+		overflow: hidden;
+		color: darkred;
+		float: right;
+		margin-top: 20%;
+	  }
+	li{
+		text-align: center;
+		text-decoration: none;
+		display: inline;
+		padding: 10px;
+	  }
+	li:hover{
+		text-decoration: underline;
+		text-shadow: 5px white;
+	  }
+	  .txt{
+	  	position: absolute;
+	  	text-shadow: 2px 2px 8px lightgoldenrodyellow;
+	  	margin-left: 30%;
+	  	margin-top: 4%;
+	  	color: darkred;
+	  	font-size:30px
+	  }
+	  .box2{
+	  	position: absolute;
+	  	background-image: url('https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875_960_720.jpg');
+	  	color: yellow;
+	  	text-shadow: 2px 2px 8px yellow;
+	  	margin-top: 22%;
+	  	width: 99%;
+	  	height: 62%;
+	  	//border: solid red;
+	  	
+	  }
+	  .box3{
+	  	position: absolute;
+	  	margin-top: 40%;
+	  	width: 7%;
+	  	height: 5%;
+	  	border: solid 1px ;
+	  	text-align: center;
+	  	padding-top: 0.5%;
+	  	text-decoration: blink;
+	  	color: orangered;
+	  }
+	  .box3:hover{
+	  	background: yellow;
+
+	  	}
+
+	  .sb1{
+	  	display: flex;
+	  	margin-top: 50%;
+	  	position: absolute;
+	  	width: 32%;
+	  	height: 40%;
+	  	border-radius: 100%;
+	  	border: red 0.5px solid;
+	  	//background: url('food.jpg');
+	  	background-size: inherit;
+	  	text-align: center;
+	  }
+	  .bb1{
+	  	position: absolute;
+	  	text-align: center;
+	 }
+	 .myDIV{
+	 	position: absolute;
+	 	margin: 15% 20%;
+	 }
+	 
+    .hide {
+  display: none;
+}
+  .myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+
+.container {
+  
+  position: absolute;
+  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+ 	
+
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  //height: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  //background-color: darkred;
+  text-shadow: 4px 4px 6px #000000;
+  color: white;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+
+
+
+</style>
+<body style="background-color: black; ">	
+		<img class="box1" src="banner2.jpg">  
+		
+			<ul>
+				<li>
+					home
+				</li>
+				<li>
+					contact
+				</li>
+				<li>
+					about us
+				</li>
+			</ul>
+			<div class="txt">
+				<h1>&nbsp;&nbsp;&nbsp;Chill & Grill</h1>
+				<h3>Something hot, Something tasty.</h3>
+			</div>
+			
+			<div class="box2">
+				<center><h2>Welcome to Restaurant Menu</h2><br><br>
+					Total 3 Html pages are included in this template:Header image has parallax<br> effect.you can feel to download ,edit,and use this Templateo layout for your<br> commercial or non-commercial websites.
+				</center>
+			</div>
+			<div class="box3" style="margin-left: 25%;">
+			<center>Burger</center>
+		</div>
+		<div class="box3" style="margin-left: 35%;">
+			<center>Pizza</center>
+		</div>
+		<div class="box3" style="margin-left: 45%;">
+			<center>Salad</center>
+		</div>
+		<div class="box3" style="margin-left: 55%;">
+			<center>Noodles</center>
+		</div>
+		<div class="box3" style="margin-left: 65%;">
+			<center>Drinks</center>
+		</div>
+
+		<div class="sb1 container" style="margin-left: 0%; background-image: url('https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			
+			
+			  <img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>BURGER</h2><br>20Rs-50Rs</div>
+			  </div>
+			
+
+
+		</div>
+		<div class="sb1 container" style="margin-left: 33.5%; background-image: url('https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			 <img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>PIZZA</h2><br>100Rs-1000Rs</div>
+			  </div>
+
+		</div>
+		<div class="sb1 container" style="margin-left: 67%; background-image: url('https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>NOODLES</h2><br>15Rs-100Rs</div>
+			  </div>
+
+
+		</div>
+		<div class="sb1 container" style="margin-left: 0%; margin-top: 69%; background-image: url('https://images.pexels.com/photos/1213710/pexels-photo-1213710.jpeg?auto=compress&cs=tinysrgb&w=400');">
+
+
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>SALAD</h2><br>30Rs-200Rs</div>
+			  </div>
+
+		</div>
+		<div class="sb1 container" style="margin-left: 33.5%; margin-top: 69%; background-image: url('https://images.pexels.com/photos/851555/pexels-photo-851555.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>COFFEE</h2><br>50Rs-300Rs</div>
+			  </div>
+
+
+		</div>
+		<div class="sb1 container" style="margin-left: 67%; margin-top: 69%; background-image: url('https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>TEA</h2><br>50Rs-150Rs</div>
+			  </div>
+
+
+		</div>
+		<div class="sb1 container" style="margin-left: 0%; margin-top: 88%; background-image: url('https://images.pexels.com/photos/1772974/pexels-photo-1772974.jpeg?auto=compress&cs=tinysrgb&w=400');">
+
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>JUICE</h2><br>40Rs-80Rs</div>
+			  </div>
+
+		</div>
+		<div class="sb1 container" style="margin-left: 33.5%; margin-top: 88%; background-image: url('https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>BEER</h2><br>100Rs-2000Rs</div>
+			  </div>
+
+		</div>
+		<div class="sb1 container" style="margin-left: 67%; margin-top: 88%; background-image: url('https://images.pexels.com/photos/39720/pexels-photo-39720.jpeg?auto=compress&cs=tinysrgb&w=400');">
+			
+			<img  class="image">
+			  <div class="middle">
+			    <div class="text"><h2>COCA-COLA</h2><br>60Rs</div>
+			  </div>
+
+		</div>
+		<div class="myDIV"></div>
+		<div class="hide">I shown when someone hovers over the div above.</div>
+
+
+		
+
+		
+</body>
+</html>
